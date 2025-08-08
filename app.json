@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "nutrikoala",
+    "slug": "nutrisnap",
+    "version": "1.0.0",
+    "sdkVersion": "49.0.0",
+    "platforms": ["ios", "android"],
+    "android": {
+      "package": "com.kh.pwa.nutrisnap"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "73a5dff1"
+      }
+    }
+  }
+}
