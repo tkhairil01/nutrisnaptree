@@ -24,20 +24,16 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.kh.pwa.nutrisnap",
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-1234567890123456~9876543210"
-      }
+      "compileSdkVersion": 33,
+      "compileSdkVersion": 33,
     },
     "plugins": [
-      "expo-ads-admob",
       "expo-camera",
       "expo-image-picker",
       "expo-localization",
       "expo-notifications",
       "expo-updates",
-      "expo-splash-screen",
-      "expo-font",
-      "expo-asset"
+      "expo-splash-screen"
     ],
     "runtimeVersion": {
       "policy": "sdkVersion"
