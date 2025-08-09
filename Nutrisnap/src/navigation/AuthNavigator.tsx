@@ -5,7 +5,6 @@ import { I18n } from 'i18n-js';
 // Import screens
 import LoginScreen from '../screens/LoginScreen';
 import SignupScreen from '../screens/SignupScreen';
-import ForgotPasswordScreen from '../screens/ForgotPasswordScreen';
 
 // Import translations
 import { en, id } from '../translations';
@@ -48,12 +47,8 @@ const AuthNavigator = ({ language, setLanguage }: { language: string, setLanguag
         {(props) => <SignupScreen {...props} language={language} setLanguage={setLanguage} />}
       </Stack.Screen>
       
-      <Stack.Screen 
-        name="ForgotPassword" 
-        options={{ title: i18n.t('forgotPassword') }}
-      >
-        {(props) => <ForgotPasswordScreen {...props} language={language} />}
-      </Stack.Screen>
+
+
     </Stack.Navigator>
   );
 };
