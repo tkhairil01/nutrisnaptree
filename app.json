@@ -35,17 +35,21 @@
           "android": {
             "compileSdkVersion": 35,
             "targetSdkVersion": 35,
-            "minSdkVersion": 24,
-            "kotlinVersion": "1.9.20", 
-            "gradleVersion": "8.10.2"   
+            "minSdkVersion": 24
           },
           "ios": {
             "deploymentTarget": "13.4"
           }
         }
-      ]
+      ],
+      "expo-status-bar",
+      "expo-splash-screen",
+      "expo-font",
+      "expo-asset"
     ],
-    "runtimeVersion": "1.0.0",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
     "updates": {
       "url": "https://u.expo.dev/73a5dff1-c044-46a3-aea5-09e338ae550f"
     },
