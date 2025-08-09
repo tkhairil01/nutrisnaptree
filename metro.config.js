@@ -3,9 +3,8 @@ const { getDefaultConfig } = require('expo/metro-config');
 
 const config = getDefaultConfig(__dirname);
 
-// Jika Anda memiliki konfigurasi khusus, tambahkan di sini.
-// Pastikan itu kompatibel dengan SDK 49.
-// Contoh:
-// config.resolver.assetExts.push('db');
+// Anda dapat menambahkan konfigurasi kustom di sini NANTI,
+// setelah build berhasil dengan konfigurasi dasar.
+// Pastikan konfigurasi kustom tersebut kompatibel dengan SDK 49.
 
 module.exports = config;
