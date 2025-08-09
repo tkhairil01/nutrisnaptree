@@ -34,10 +34,12 @@
         {
           "android": {
             "compileSdkVersion": 34,
-            "targetSdkVersion": 34,
+            "targetSdkVersion": 33,
             "minSdkVersion": 24,
             "kotlinVersion": "1.9.0",
-            "gradleVersion": "7.6.1" 
+            "gradleVersion": "7.6.1",
+            "enableHermes": true,
+            "forceLegacyBuildSystem": true
           },
           "ios": {
             "deploymentTarget": "13.4"
