@@ -41,3 +41,7 @@ yarn-error.*
 *.tsbuildinfo
 
 # @end expo-cli
+
+# Android / iOS Native project folders for Prebuild
+android/
+ios/
