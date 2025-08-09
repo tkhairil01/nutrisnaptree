@@ -37,7 +37,7 @@
             "targetSdkVersion": 34,
             "minSdkVersion": 24,
             "kotlinVersion": "1.9.0", 
-            "gradleVersion": "8.4"   
+            "gradleVersion": "8.10.2"   
           },
           "ios": {
             "deploymentTarget": "13.4"
