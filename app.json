@@ -29,31 +29,15 @@
       }
     },
     "plugins": [
-      // Plugin yang paling sering digunakan dengan SDK 49
       "expo-ads-admob",
       "expo-camera",
       "expo-image-picker",
       "expo-localization",
       "expo-notifications",
-      "expo-status-bar",
       "expo-updates",
-      // Plugin dasar lainnya yang mungkin ada di proyek Expo
       "expo-splash-screen",
       "expo-font",
-      "expo-asset",
-      // expo-build-properties sering ditambahkan secara terpisah jika perlu override versi build tools
-      // tetapi bukan plugin default di setiap proyek SDK 49.
-      // Jika Anda memerlukannya untuk Android SDK/Gradle spesifik, tambahkan di sini:
-     [
-      "expo-build-properties",
-       {
-      "android": {
-      "compileSdkVersion": 33, // Biasanya 33 untuk SDK 49
-      "targetSdkVersion": 33,  // Biasanya 33 untuk SDK 49
-      "minSdkVersion": 24
-     }
-    }
-      ]
+      "expo-asset"
     ],
     "runtimeVersion": {
       "policy": "sdkVersion"
@@ -66,6 +50,6 @@
         "projectId": "73a5dff1-c044-46a3-aea5-09e338ae550f"
       }
     },
-    "sdkVersion": "49.0.0" // Ini adalah kuncinya untuk SDK 49
+    "sdkVersion": "49.0.0"
   }
 }
