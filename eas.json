@@ -1,24 +1,27 @@
 {
   "cli": {
-    "version": ">=3.13.0",
-    "appVersionSource": "local"
+    "version": ">= 3.13.0", // Versi CLI yang sudah ada dari file Anda
+    "appVersionSource": "local" // Sesuai dengan file asli Anda
   },
   "build": {
     "preview": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk"
-      },
-      "channel": "preview" // Pindahkan channel ke dalam profile "preview"
-    },
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal",
-      "channel": "development" // Pindahkan channel ke dalam profile "development"
+        "buildType": "apk" // Memastikan Anda mendapatkan APK
+      }
+      // Properti "channel" dihapus dari sini karena penempatannya salah untuk build config.
+      // Channel terkait dengan Expo Updates, bukan konfigurasi build itu sendiri.
     },
     "production": {
-      "channel": "production" // Tambahkan channel untuk profile "production"
+      // Untuk build produksi, EAS secara default akan membuat AAB (Android App Bundle).
+      // Jika Anda ingin APK untuk produksi, Anda perlu menambahkannya secara eksplisit:
+      // "android": {
+      //   "buildType": "apk"
+      // }
+      // Namun, AAB adalah format yang direkomendasikan Google Play Store.
     }
+  },
+  "submit": {
+    "production": {}
   }
-  // Hapus sepenuhnya bagian "update" yang sebelumnya ada di sini
 }
