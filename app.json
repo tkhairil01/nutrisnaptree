@@ -3,10 +3,49 @@
     "name": "nutrikoala",
     "slug": "nutrisnap",
     "version": "1.0.0",
-    "sdkVersion": "49.0.0",
-    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kh.pwa.nutrisnap"
+    },
     "android": {
-      "package": "com.kh.pwa.nutrisnap"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kh.pwa.nutrisnap",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1234567890123456~9876543210"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 24
+          },
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ]
+    ],
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/73a5dff1-c044-46a3-aea5-09e338ae550f"
     },
     "extra": {
       "eas": {
@@ -15,4 +54,3 @@
     }
   }
 }
-
