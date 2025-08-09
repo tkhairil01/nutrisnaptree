@@ -9,6 +9,17 @@
       "android": {
         "buildType": "apk"
       }
-    }
+    },
+    // Anda mungkin juga memiliki konfigurasi "development" atau "production" di sini
+    // Jika ada, biarkan saja.
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  // Tambahkan bagian 'update' ini untuk menentukan channel
+  "update": {
+    "channel": "production" 
   }
 }
