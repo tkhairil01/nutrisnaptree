@@ -19,7 +19,6 @@ import * as ImagePicker from 'expo-image-picker';
 import { Camera } from 'expo-camera';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { I18n } from 'i18n-js';
-import { AdMobInterstitial } from 'expo-ads-admob';
 
 // Import types
 import { JournalStackParamList } from '../types';

@@ -14,7 +14,6 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { Ionicons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { I18n } from 'i18n-js';
-import { AdMobBanner } from 'expo-ads-admob';
 
 // Import types
 import { ExerciseStackParamList, Exercise } from '../types';

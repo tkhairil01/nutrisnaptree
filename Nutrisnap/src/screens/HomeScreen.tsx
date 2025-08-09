@@ -17,7 +17,6 @@ import { Ionicons } from '@expo/vector-icons';
 import { LineChart, PieChart } from 'react-native-chart-kit';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { I18n } from 'i18n-js';
-import { AdMobBanner } from 'expo-ads-admob';
 
 // Import types
 import { HomeStackParamList, User, Food, Exercise } from '../types';
