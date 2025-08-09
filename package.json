@@ -21,7 +21,7 @@
     "expo-ads-admob": "^8.4.0",
     "expo-build-properties": "~0.11.1",
     "expo-camera": "~13.4.4",
-    "expo-image-picker": "~14.0.0",
+    "expo-image-picker": "~14.3.2",
     "expo-localization": "~13.0.0",
     "expo-notifications": "^0.31.4",
     "expo-splash-screen": "^0.30.10",

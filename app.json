@@ -33,14 +33,14 @@
         "expo-build-properties",
         {
           "android": {
-            "compileSdkVersion": 33, // Sesuai dengan SDK 49/RN 0.72
-            "targetSdkVersion": 33,  // Sesuai dengan SDK 49/RN 0.72
-            "minSdkVersion": 23,     // Versi minimum API yang direkomendasikan
+            "compileSdkVersion": 33, // Umumnya direkomendasikan untuk SDK 50
+            "targetSdkVersion": 33,  // Umumnya direkomendasikan untuk SDK 50
+            "minSdkVersion": 23,     // Minimum API Level yang kompatibel
             "kotlinVersion": "1.8.0", // Versi Kotlin yang kompatibel
-            "gradleVersion": "7.6.1"  // Coba paksa Gradle 7.6.1, yang lebih stabil
+            "gradleVersion": "7.6.1"  // Targetkan Gradle 7.6.1 untuk stabilitas
           },
           "ios": {
-            "deploymentTarget": "13.4" // Sesuai dengan SDK 49/RN 0.72
+            "deploymentTarget": "13.4" // Pertahankan 13.4 karena requirement EAS/Tools
           }
         }
       ]
