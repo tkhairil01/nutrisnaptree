@@ -8,18 +8,17 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      }
+      },
+      "channel": "preview" // Pindahkan channel ke dalam profile "preview"
     },
-    // Anda mungkin juga memiliki konfigurasi "development" atau "production" di sini
-    // Jika ada, biarkan saja.
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "channel": "development" // Pindahkan channel ke dalam profile "development"
     },
-    "production": {}
-  },
-  // Tambahkan bagian 'update' ini untuk menentukan channel
-  "update": {
-    "channel": "production" 
+    "production": {
+      "channel": "production" // Tambahkan channel untuk profile "production"
+    }
   }
+  // Hapus sepenuhnya bagian "update" yang sebelumnya ada di sini
 }
