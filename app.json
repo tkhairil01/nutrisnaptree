@@ -33,11 +33,11 @@
         "expo-build-properties",
         {
           "android": {
-            "compileSdkVersion": 33, // Umumnya direkomendasikan untuk SDK 50
-            "targetSdkVersion": 33,  // Umumnya direkomendasikan untuk SDK 50
-            "minSdkVersion": 23,     // Minimum API Level yang kompatibel
-            "kotlinVersion": "1.8.0", // Versi Kotlin yang kompatibel
-            "gradleVersion": "7.6.1"  // Targetkan Gradle 7.6.1 untuk stabilitas
+            "compileSdkVersion": 34, // Direkomendasikan untuk SDK 51/RN 0.74
+            "targetSdkVersion": 34,  // Direkomendasikan untuk SDK 51/RN 0.74
+            "minSdkVersion": 24,     // Minimum API Level yang kompatibel
+            "kotlinVersion": "1.9.0", // Versi Kotlin yang kompatibel
+            "gradleVersion": "8.10.2" // Targetkan Gradle 8.10.2, yang menyebabkan masalah awal kita, tapi RN 0.74 seharusnya kompatibel
           },
           "ios": {
             "deploymentTarget": "13.4" // Pertahankan 13.4 karena requirement EAS/Tools
